@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stag('execute script') {
+        stage('execute simple script') {
             steps {
                 sh 'echo "Hello, World!"'
             }
